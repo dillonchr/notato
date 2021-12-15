@@ -1,0 +1,23 @@
+{
+  "name": "notato",
+  "version": "1.0.0",
+  "description": "note taker chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillonchr/notato.git"
+  },
+  "keywords": [
+    "discord",
+    "notes"
+  ],
+  "author": "Dillon McChristensen",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dillonchr/notato/issues"
+  },
+  "homepage": "https://github.com/dillonchr/notato#readme"
+}

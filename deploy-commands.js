@@ -6,6 +6,9 @@ const { APP_ID: clientId, SERVER_ID: guildId, BOT_TOKEN: token } = process.env;
 
 const commands = [
   new SlashCommandBuilder()
+    .setName("note")
+    .setDescription("Look up notes by tag"),
+  new SlashCommandBuilder()
     .setName("ping")
     .setDescription("Replies with pong!"),
   new SlashCommandBuilder()

@@ -1,0 +1,7 @@
+FROM node:16.13.1-alpine3.14
+RUN npm i -g nodemon > /dev/null
+WORKDIR /code/
+COPY package*.json ./
+RUN npm i
+COPY . .
+CMD nodemon index.js

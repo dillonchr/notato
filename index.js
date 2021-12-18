@@ -5,7 +5,7 @@ const { Sequelize, Model, DataTypes } = require("sequelize");
 
 const sequelize = new Sequelize({
   dialect: "sqlite",
-  storage: "/Users/dillon/git/DATAS/notato.sqlite"
+  storage: "/data/notato.sqlite"
 });
 
 class Note extends Model {}
